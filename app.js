@@ -13,6 +13,7 @@ function agregarAmigo() {
     }
     limpiarCampoDeEntrada();
   }
+
   console.log("Lista de amigos:", amigos); // Registro en consola para depuración
 }
 
@@ -26,7 +27,7 @@ function validarNombreDeAmigo(nombre) {
 }
 
 function validarNombreDeAmigoExistente(nombre) {
-  // Valida que el nombre del amigo no esté ya en la lista
+  // Valida que el nombre del amigo ya existe en la lista
   if (amigos.includes(nombre)) {
     alert("El amigo ya está en la lista.");
     return true;
@@ -47,6 +48,7 @@ function agregarAmigoALaLista(amigo) {
   let li = document.createElement("li");
   li.textContent = amigo;
   lista.appendChild(li);
+
   console.log("Amigo agregado:", amigo); // Registro en consola para depuración
 }
 
@@ -56,8 +58,12 @@ function sortearAmigo() {
     alert("No hay amigos en la lista para sortear.");
     return;
   }
+
   let indiceAleatorio = Math.floor(Math.random() * amigos.length);
   let amigoSorteado = amigos[indiceAleatorio];
+
   document.getElementById("listaAmigos").innerHTML = ""; // Limpiar la lista antes de mostrar el amigo sorteado
   document.getElementById("resultado").innerHTML = amigoSorteado;
+
+  console.log("Amigo sorteado:", amigoSorteado); // Registro en consola para depuración
 }
