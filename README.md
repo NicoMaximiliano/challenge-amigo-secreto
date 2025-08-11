@@ -9,16 +9,16 @@ Esto es juego donde se sortea a un grupo de amigos los cuales son ingresados por
 - Elegira un amigo a traves del boton "sortear amigo" de manera aleatoria
 
 ## Capturas del proyecto
-Pagina inicial
+### Pagina inicial
 ![Pagina inicial](assets/screenshots/vista-principal.jpg)
 
-Agregando amigos a la lista
+### Agregando amigos a la lista
 ![Lista de amigos](assets/screenshots/agregando-amigos.jpg)
 
-Ingresando un amigo que ya se encuentra en la lista
+### Ingresando un amigo que ya se encuentra en la lista
 ![Mensaje de alerta](assets/screenshots/ingresando-amigo-repetido.jpg)
 
-Mostrando al amigo que ha sido sorteado
+### Mostrando al amigo que ha sido sorteado
 ![Amigo sorteado](assets/screenshots/sortear-amigo.jpg)
 
 ## Tecnologias
