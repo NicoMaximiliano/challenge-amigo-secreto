@@ -1,10 +1,6 @@
 # Challenge Amigo Secreto
 ## _Esto es un juego de sortear a un amigo_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 Esto es juego donde se sortea a un grupo de amigos los cuales son ingresados por el usuario que realizara el sorteo.
 
 ## Funcionalidad
